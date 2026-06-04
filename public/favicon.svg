@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" aria-labelledby="title">
+  <title id="title">FinovaFlow Tech</title>
+  <rect width="48" height="48" rx="12" fill="#0f172a"/>
+  <path fill="#7bd0ff" d="M13 12h24v7H21v5h13v7H21v9h-8z"/>
+  <path fill="#2563eb" d="M21 24h13v7H21z"/>
+</svg>

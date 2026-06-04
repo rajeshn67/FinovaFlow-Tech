@@ -1,0 +1,71 @@
+:root {
+  --background: #f7f9fb;
+  --surface: #fff;
+  --surface-muted: #f2f4f6;
+  --ink: #191c1e;
+  --secondary: #565e74;
+  --primary: #004ac6;
+  --primary-bright: #2563eb;
+  --tertiary: #005b7c;
+  --cyan: #7bd0ff;
+  --navy: #0f172a;
+  --outline: #c3c6d7;
+  --container: 1280px;
+  --gutter: clamp(16px, 5vw, 48px);
+  font-family:
+    Inter,
+    ui-sans-serif,
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    sans-serif;
+  color: var(--ink);
+  background: var(--background);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-width: 320px;
+  margin: 0;
+  background: var(--background);
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+img,
+svg {
+  display: block;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+.shell {
+  width: min(100% - (var(--gutter) * 2), var(--container));
+  margin: 0 auto;
+}
+
+a:focus-visible,
+button:focus-visible,
+summary:focus-visible {
+  outline: 3px solid rgba(37, 99, 235, 0.28);
+  outline-offset: 3px;
+}
